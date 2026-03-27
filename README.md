@@ -59,7 +59,7 @@ Una vez que todos los contenedores están arriba y operando, puedes interactuar 
 
 A continuación se evidencian las 4 pruebas de validación requeridas en la rúbrica:
 
-### 1. Estado de los contenedores (`docker-compose ps`)
+### 1. Estado de los contenedores (`docker compose ps`)
 > **Nota:** Aquí se muestran los 4 servicios montados correctamente en estado "running" y la BD en estado "healthy".
 <img width="1885" height="189" alt="image" src="https://github.com/user-attachments/assets/7f968aff-745b-4ea2-b73f-a65eb99ff784" />
 
