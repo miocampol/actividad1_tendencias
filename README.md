@@ -61,20 +61,22 @@ A continuación se evidencian las 4 pruebas de validación requeridas en la rúb
 
 ### 1. Estado de los contenedores (`docker-compose ps`)
 > **Nota:** Aquí se muestran los 4 servicios montados correctamente en estado "running" y la BD en estado "healthy".
+<img width="1885" height="189" alt="image" src="https://github.com/user-attachments/assets/7f968aff-745b-4ea2-b73f-a65eb99ff784" />
 
 
-
-### 2. Respuesta de la API
+### 2. Respuesta de la API (Navegador)
 > **Nota:** Aquí se evidencia el consumo exitoso del GET hacia la API Flask y los datos devueltos en formato JSON.
+<img width="756" height="899" alt="image" src="https://github.com/user-attachments/assets/904a3c41-e0ed-42e3-9945-287834398f21" />
 
 
 
 ### 3. Frontend funcionando en el navegador
 > **Nota:** Aquí se muestra la tabla renderizada por el front-end en el puerto 3000, consumiendo los endpoints.
+<img width="1913" height="1018" alt="image" src="https://github.com/user-attachments/assets/f87ba33d-32ab-4dae-ab93-7b88b4a79005" />
 
 
 
 ### 4. pgAdmin conectado y mostrando las tablas
 > **Nota:** Aquí se aprecia pgAdmin enlazado al servicio `db`, desplegando el Schema `public` y las tablas generadas por `init.sql`.
-
+<img width="1912" height="883" alt="image" src="https://github.com/user-attachments/assets/a3a7f2aa-cd61-4e30-bff9-90484ce04111" />
 
